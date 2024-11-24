@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+ 
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+ 
+  .product-container {
+    width: 700px;
+    border: 5px solid #111010;
+    background-color: #fff;
+    padding: none;
+    position: relative;
+  }
+ 
+  .sale-badge {
+    position: absolute;
+    top: -10px;
+    left: -30px;
+    background-color: #d9534f;
+    color: white;
+    font-size: 30px;
+    padding: 4px 8px;
+    font-weight: bold;
+  }
+ 
+  .product-title {
+    text-align: center;
+    font-size: 18px;
+    margin: 10px 0;
+  }
+ 
+  .product-content {
+    display: flex;
+    margin-top: 20px;
+  }
+ 
+  .product-image {
+    width: 20%;
+    object-fit: fill;
+    border-radius: 8px;
+  }
+ 
+  .product-info {
+    width: 50%;
+    padding-left: 15px;
+  }
+ 
+  .price-shipping {
+    display: flex;
+    align-items: baseline;
+  }
+ 
+  .price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    top: 70px; /* Moves the element down from the top */
+  }
+ 
+  .free-shipping {
+    color: #888;
+    font-size: 14px;
+    position: absolute;
+    margin-left: 100px; /* Adds spacing between price and free shipping */
+    align-self: flex-start; /* Aligns the free-shipping text properly */
+    position: absolute;
+    top: 58px; /* Moves the element down from the top */
+  }
+  .product {
+    color: #090000;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 260px; /* Adds spacing between price and free shipping */
+    align-self: flex-start; /* Aligns the free-shipping text properly */
+    position: absolute;
+    top: 58px; /* Moves the element down from the top */
+  }
+ 
+  .description {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #666;
+  }
+ 
+  .more-info {
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+  }
+ 
+  .color-options {
+    display: flex;
+    gap: 6px;
+    margin: 10px 0;
+  }
+ 
+  .color {
+    
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+
+  }
+ 
+  .color.black { background-color: #000; }
+  .color.blue { background-color: #0044cc; }
+  .color.red { background-color: #ff0000; }
+  .color.orange { background-color: #ffa500; }
+  .color.green { background-color: #00cc00; }
+  .color.brown { background-color: #8b4513; }
+ 
+  .product-details h2 {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+ 
+  .product-details ul {
+    list-style-type: none;
+    color: #0a0909;
+    font-size: 14px;
+    margin-left: 270px; /* Adds spacing between price and free shipping */
+    align-self: flex-start; /* Aligns the free-shipping text properly */
+    position: absolute;
+    top: 95px; /* Moves the element down from the top */
+  }
+ 
+  .product-details li {
+    margin: 5px 0;
+  }
+ 
+  .add-to-cart {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    background-color: #080808;
+    color: white;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  .add-to-cart:hover {
+    background-color: #555;
+  }
