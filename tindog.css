@@ -5,7 +5,6 @@
 * {
     box-sizing: border-box;
 }
-
 #title {
     background-image: linear-gradient(to right top, #a144ff, #c133eb, #d821d6, #e80dc1, #f300ad, #ff0089, #ff2968, #ff494b, #fd7c08, #e1ad00, #aad900, #1eff5b);
     background-size: cover;
